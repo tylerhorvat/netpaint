@@ -15,6 +15,6 @@ public class Line extends PaintObject {
 	public void draw(GraphicsContext gc) {
 		gc.setStroke(getColor());
 		gc.strokeLine(getA().getX(), getA().getY(), getB().getX(), getB().getY());
-		//gc.fillRect(x, y, w, h);
+
 	}
 }
